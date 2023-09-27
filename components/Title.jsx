@@ -1,5 +1,10 @@
-export default function Title(){
+export default function Title(info){
+  console.log(info)
   return(
-  <h1>Sociedade Espotiva Palmeiras</h1>
+   <div>
+  <h1>{info.principal}</h1> 
+  <h2>{info.secundario}</h2> 
+  </div>
   )
 }
+ 
